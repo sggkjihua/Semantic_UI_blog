@@ -15,6 +15,13 @@ body {
     .m-mobile-show{
         display: block;
     }
+    .m-padded-lr-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-wide {
+        width: 100% !important;
+    }
 
 }
 .m-mobile-show {
@@ -35,6 +42,10 @@ body {
 
 .m-margin-t-tiny{
     margin-top: 1em !important;
+}
+
+.m-margin-b-tiny{
+    margin-bottom: 0.3em !important;
 }
 
 .m-margin-t-large{
@@ -75,6 +86,10 @@ body {
     padding-bottom: 5em !important;
 }
 
+.m-padded-lr-responsive{
+    padding-left: 4em;
+    padding-right: 4em;
+}
 .m-text-thin {
     font-weight: 300 !important;
 }
@@ -98,6 +113,11 @@ body {
 
 .m-container {
     max-width: 72em !important;
+    margin: auto !important;
+}
+
+.m-container-small {
+    max-width: 60em !important;
     margin: auto !important;
 }
 

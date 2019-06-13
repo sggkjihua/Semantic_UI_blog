@@ -1,6 +1,32 @@
+.m-text {
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.5;
+}
+.m-padded-mini{
+    padding: 0.2em;
+}
 .m-padded-tb-mini {
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
+}
+
+.m-padded-tb-tiny {
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.m-padded-tb-small {
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.m-padded-tb-large {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.m-padded-tb-massive {
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
 }
 
 .m-padded-tb-maxi {
@@ -23,3 +49,15 @@
 .m-opacity-mini {
     opacity: 0.8 !important;
 }
+
+/*------------- display ------------*/
+.m-inline-block{
+  display: inline-block;
+}
+
+.m-container {
+    max-width: 72em !important;
+    margin: auto !important;
+}
+
+/*-------------- blog image -----------------*/

@@ -11,13 +11,13 @@
     <!--导航-->
     <nav class="ui inverted attached segment m-padded-tb-mini">
         <div class="ui container">
-            <div class ="ui inverted secondary menu">
+            <div class ="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Blog</h2>
-                <a href="#" class="item"><i class="home icon"></i>Main page</a>
-                <a href="#" class="item"><i class="idea icon"></i>Categories</a>
-                <a href="#" class="item"><i class="tags icon"></i>Tag</a>
-                <a href="#" class="item"><i class="info icon"></i>About Me</a>
-                <div class="right item">
+                <a href="#" class="item m-mobile-hide"><i class="home icon"></i>Main page</a>
+                <a href="#" class="item m-mobile-hide"><i class="idea icon"></i>Categories</a>
+                <a href="#" class="item m-mobile-hide"><i class="tags icon"></i>Tag</a>
+                <a href="#" class="item m-mobile-hide"><i class="info icon"></i>About Me</a>
+                <div class="right item m-mobile-hide">
                     <div class = "ui icon inverted transparent input">
                         <input type = "text" placeholder="Search...">
                         <i class="search link icon"></i>
@@ -25,12 +25,15 @@
                 </div>
             </div>
         </div>
+        <a href="#" class="ui icon button m-mobile-show m-top-right">
+            <i class="sidebar icon"></i>
+        </a>
     </nav>
 
     <!--content-->
     <div class = "m-container m-padded-tb-large">
         <div class="ui container">
-            <div class="ui grid">
+            <div class="ui stackable grid">
                 <div class="eleven wide column">
                     <!-- header -->
                     <div class="ui top attached segment">
@@ -44,12 +47,11 @@
                         </div>
                     </div>
 
-
-
                     <!--content-->
+                    <!--Left-->
                     <div class="ui attached segment">
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <!-- content part-->
                                 <div class="eleven wide column">
                                     <h3 class="ui header">
@@ -90,10 +92,9 @@
                                 </div>
                             </div>
                         </div>
-
                         <!--here are the copies-->
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <!-- content part-->
                                 <div class="eleven wide column">
                                     <h3 class="ui header">
@@ -135,7 +136,7 @@
                             </div>
                         </div>
                         <div class="ui padded vertical segment m-padded-tb-large">
-                            <div class="ui grid">
+                            <div class="ui mobile reversed stackable grid">
                                 <!-- content part-->
                                 <div class="eleven wide column">
                                     <h3 class="ui header">
@@ -177,12 +178,7 @@
                             </div>
                         </div>
 
-
                     </div>
-
-
-
-
 
                     <!-- bottom-->
                     <div class="ui bottom attached segment">
@@ -196,9 +192,123 @@
                         </div>
                     </div>
                 </div>
-                <div class="five wide column">
-                    <div class="ui segment">
 
+                <!--Right-->
+                <div class="five wide column">
+                    <!--Type categories-->
+                    <div class="ui segments">
+                        <div class="ui secondary segment">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <i class="idea icon"></i> Type
+                                </div>
+
+                                <div class="right aligned column">
+                                    <a href="" target="_blank">more <i class="angle double right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui teal segment">
+                            <div class="ui fluid vertical menu">
+                                <a href="#" class="item">
+                                    NodeJs
+                                    <div class="ui teal basic left pointing label">15</div>
+                                </a>
+                                <a href="#" class="item">
+                                    MongoDB
+                                    <div class="ui teal basic left pointing label">15</div>
+                                </a>
+                                <a href="#" class="item">
+                                    SpringBoot
+                                    <div class="ui teal basic left pointing label">15</div>
+                                </a>
+                                <a href="#" class="item">
+                                    Angular
+                                    <div class="ui teal basic left pointing label">15</div>
+                                </a>
+                                <a href="#" class="item">
+                                    Python
+                                    <div class="ui teal basic left pointing label">15</div>
+                                </a>
+                                <a href="#" class="item">
+                                    Personal
+                                    <div class="ui teal basic left pointing label">15</div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--Tag categories-->
+                    <div class="ui segments">
+                        <div class="ui secondary segment">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <i class="tags icon"></i> Tags
+                                </div>
+
+                                <div class="right aligned column">
+                                    <a href="" target="_blank">more <i class="angle double right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui teal segment">
+                            <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                                MongoDB
+                                <div class="detail">
+                                    25
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                                MongoDB
+                                <div class="detail">
+                                    25
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                                MongoDB
+                                <div class="detail">
+                                    25
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                                MongoDB
+                                <div class="detail">
+                                    25
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!--New Recommends-->
+                    <div class="ui segments m-margin-t-large">
+                        <div class="ui secondary segment">
+                                <div class="column">
+                                    <i class="bookmark icon"></i> Latest Recommend
+                                </div>
+                        </div>
+
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">
+                                User story {what should be put here}
+                            </a>
+                        </div>
+
+                        <div class="ui segment">
+                            <a href="#" target="_blank" class="m-black m-text-thin">
+                                User story {what should be put here}
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Bar code-->
+                    <h4 class="ui horizontal divider header m-margin-t-large">
+                        Scan and follow
+                    </h4>
+                    <div class="ui centered card" style="width:11em">
+                        <img src="./static/images/saitama.jpg" alt="" class="ui rounder image">
                     </div>
                 </div>
             </div>
@@ -207,22 +317,10 @@
 
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
     <!--footer-->
     <footer class="ui inverted vertical segment m-padded-tb-maxi">
         <div class="ui center aligned container">
-            <div class="ui inverted divided grid">
+            <div class="ui inverted divided stackable grid">
                 <div class="three wide column">
                     <div class="ui inverted link list">
                         <div class="item">

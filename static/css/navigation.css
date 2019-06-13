@@ -1,3 +1,6 @@
+body {
+    background: url("../images/background.jpg");
+}
 .m-text {
     font-weight: 300 !important;
     letter-spacing: 1px !important;

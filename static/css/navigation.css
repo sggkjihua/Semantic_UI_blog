@@ -138,7 +138,7 @@ body {
 }
 
 /*-------------- blog image -----------------*/
-
-.blog-image {
-
+.m-about-image{
+    width:550px !important;
+    height:400px !important;
 }

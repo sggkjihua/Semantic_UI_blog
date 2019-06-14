@@ -114,13 +114,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/blogs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="682">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/blog-create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -166,6 +180,7 @@
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/static/css/navigation.css" />
         <option value="$PROJECT_DIR$/admin/blogs.html" />
+        <option value="$PROJECT_DIR$/admin/blog-create.html" />
       </list>
     </option>
   </component>
@@ -232,17 +247,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.blogs.html">
+  <component name="RunManager" selected="JavaScript Debug.blog-create.html">
     <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/about.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="archives.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/archives.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="blogs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/admin/blogs.html" useBuiltInWebServerPort="true">
+    <configuration name="blog-create.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/admin/blog-create.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/tags.html" useBuiltInWebServerPort="true">
+    <configuration name="blogs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/admin/blogs.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="types.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/types.html" useBuiltInWebServerPort="true">
@@ -250,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.blog-create.html" />
         <item itemvalue="JavaScript Debug.blogs.html" />
         <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.archives.html" />
         <item itemvalue="JavaScript Debug.types.html" />
-        <item itemvalue="JavaScript Debug.tags.html" />
       </list>
     </recent_temporary>
   </component>
@@ -270,18 +285,18 @@
       <updated>1560443119730</updated>
       <workItem from="1560443126128" duration="2955000" />
       <workItem from="1560447054794" duration="19379000" />
-      <workItem from="1560526179851" duration="10902000" />
+      <workItem from="1560526179851" duration="13833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33236000" />
+    <option name="totallyTimeSpent" value="36167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="0" width="653" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12155592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.089141004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,10 +432,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/blogs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="682">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/blog-create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="147" column="33" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

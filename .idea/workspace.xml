@@ -218,7 +218,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/editormd" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -285,12 +285,12 @@
       <updated>1560443119730</updated>
       <workItem from="1560443126128" duration="2955000" />
       <workItem from="1560447054794" duration="19379000" />
-      <workItem from="1560526179851" duration="14073000" />
+      <workItem from="1560526179851" duration="14669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36407000" />
+    <option name="totallyTimeSpent" value="37003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />

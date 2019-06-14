@@ -6,6 +6,16 @@ body {
     letter-spacing: 1px !important;
     line-height: 1.5;
 }
+.m-mobile-lr-clear {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+}
+
+/* shadow */
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,2) !important;;
+    box-shadow: 0 4px 8px rgba(0,0,0,2) !important;
+}
 
 /* media */
 @media screen and (max-width: 768px) {
@@ -22,6 +32,12 @@ body {
     .m-mobile-wide {
         width: 100% !important;
     }
+
+    .m-mobile-lr-clear {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
 
 }
 .m-mobile-show {
